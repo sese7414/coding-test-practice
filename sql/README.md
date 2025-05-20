@@ -10,8 +10,11 @@
 | 06 | 동명 동물 수 찾기 | [보기](./06_same_name_anls.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59403) |
 | 07 | 아픈 동물 찾기 | [보기](./07_find_sick_animal.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59403) |
 | 08 | 상위 n개 레코드 | [보기](./08_head_n.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59405) |
-| 09 | 최솟값 구하기 | [보기](./08_head_n.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59405) |
-| 10 | 어린 동물 찾기 | [보기](./08_head_n.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59405) |
+| 09 | 최솟값 구하기 | [보기](./09_find_minimum.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59038) |
+| 10 | 어린 동물 찾기 | [보기](./10_find_young_animals.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59037) |
+| 11 | 여러 기준으로 정렬하기 | [보기](./10_find_young_animals.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59404) |
+| 12 | 이름에 el이 들어가는 동물 찾기 | [보기](./10_find_young_animals.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59047) |
+| 13 | 나이 정보가 없는 회원 수 구하기 | [보기](./10_find_young_animals.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131528) |
 
 
 
