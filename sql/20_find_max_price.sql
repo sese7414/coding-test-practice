@@ -17,3 +17,11 @@ select에서 바로 max()를 쓰는 것은 max()가 집계함수이기 때문에
 */
 
 ## 다른 방법
+SELECT  PRODUCT_ID,
+        PRODUCT_NAME,
+        PRODUCT_CD,
+        CATEGORY,
+        PRICE
+FROM FOOD_PRODUCT
+ORDER BY PRICE DESC
+LIMIT 1
