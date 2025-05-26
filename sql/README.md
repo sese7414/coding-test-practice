@@ -15,6 +15,16 @@
 | 11 | 여러 기준으로 정렬하기 | [보기](./11_sorting_various.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59404) |
 | 12 | 이름에 el이 들어가는 동물 찾기 | [보기](./12_find_name_in_el.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59047) |
 | 13 | 나이 정보가 없는 회원 수 구하기 | [보기](./13_n_no_age.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131528) |
+| 14 | 가장 비싼 상품 구하기 | [보기](./14_max_price.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131697) |
+| 15 | NULL 처리하기 | [보기](./15_null_change.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59410) |
+| 16 | 경기도에 위치한 식품창고 목록 출력하기 | [보기](./16_gyeonggi_warehouse.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131114) |
+| 17 | 강원도에 위치한 생산공장 목록 출력하기 | [보기](./17_gangwon_factory.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131112) |
+| 18 | DATETIME에서 DATE로 형 변환 | [보기](./18_datetime_to_date.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59414) |
+| 19 | 흉부외과 또는 일반외과 의사 목록 출력하기 | [보기](./19_find_cs_gs_doctors.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/132203) |
+| 20 | 가격이 제일 비싼 식품의 정보 출력하기 | [보기](./20_find_max_price.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131115) |
+| 21 | 이름이 없는 동물의 아이디 | [보기](./21_animal_id_noname.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59039) |
+| 22 | 조건에 맞는 회원수 구하기 | [보기](./22_n_no_age.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131535) |
+| 23 | 중성화 여부 파악하기 | [보기](./23_sex_upon_intake.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59409) |
 
 
 
