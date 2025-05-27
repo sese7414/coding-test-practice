@@ -25,6 +25,9 @@
 | 21 | 이름이 없는 동물의 아이디 | [보기](./21_animal_id_noname.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59039) |
 | 22 | 조건에 맞는 회원수 구하기 | [보기](./22_n_no_age.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131535) |
 | 23 | 중성화 여부 파악하기 | [보기](./23_sex_upon_intake.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59409) |
+| 24 | 카테고리 별 상품 개수 구하기 | [보기](./24_pr_per_category.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/131529) |
+| 25 | 고양이와 개는 몇 마리 있을까 | [보기](./25_n_catndog.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59040) |
+| 26 | 입양 시각 구하기(1) | [보기](./26_find_adoption_time1.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59412) |
 
 
 
