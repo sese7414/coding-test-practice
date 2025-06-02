@@ -3,8 +3,12 @@
 
 | 번호 | 문제 | 파일 | 링크 |
 |------|------|------|------|
-| 01 | 두 수의 차 구하기 | [보기](./01_find_animal_names.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803?language=python3) |
-| 02 | 역순 정렬하기 | [보기](./02_desc_ordering.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59035) |
-| 03 | 중복 제거하기 | [보기](./03_remove_duplicate.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59408) |
+| 01 | 두 수의 차 구하기 | [보기](./01_num_diff.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803) |
+| 02 | 두 수의 곱 구하기 | [보기](./02_num_product.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120804) |
+| 03 | 몫 구하기 | [보기](./03_find_quotients.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120805) |
+https://school.programmers.co.kr/learn/courses/30/lessons/120805
+| 04 | 나이 출력 | [보기](./04_cal_age.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120820) |
+| 05 | 숫자 비교하기 | [보기](./05_compare_numbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120807) |
+| 06 | 두 수의 합 구하기 | [보기](./06_sum_tnumbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802) |
 
 
