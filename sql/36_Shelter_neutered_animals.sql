@@ -1,0 +1,24 @@
+/*
+문제: 보호소에서 중성화한 동물
+분류: JOIN
+링크: https://school.programmers.co.kr/learn/courses/30/lessons/59045
+*/
+
+-- like 사용
+SELECT o.ANIMAL_ID, o.ANIMAL_TYPE, o.NAME
+FROM ANIMAL_INS i 
+INNER JOIN ANIMAL_OUTS o ON i.ANIMAL_ID = o.ANIMAL_ID
+  -- 아래 () 대신 o.SEX_UPON_OUTCOME NOT LIKE 'Intact%'도 가능!
+WHERE i.SEX_UPON_INTAKE LIKE 'Intact%' AND (o.SEX_UPON_OUTCOME LIKE 'Spayed%' OR o.SEX_UPON_OUTCOME LIKE 'Neutered%')
+
+-- REGEXP 사용
+SELECT o.ANIMAL_ID, o.ANIMAL_TYPE, o.NAME
+FROM ANIMAL_INS i 
+INNER JOIN ANIMAL_OUTS o ON i.ANIMAL_ID = o.ANIMAL_ID
+WHERE i.SEX_UPON_INTAKE REGEXP 'Intact' AND (o.SEX_UPON_OUTCOME REGEXP 'Spayed|Neutered')
+
+-- 성별이 바뀐다는 표현
+SELECT ANIMAL_ID, I.ANIMAL_TYPE, I.NAME
+FROM ANIMAL_INS I LEFT JOIN ANIMAL_OUTS O USING(ANIMAL_ID)
+WHERE SEX_UPON_INTAKE <> SEX_UPON_OUTCOME
+-- 출처: https://school.programmers.co.kr/questions/86795
