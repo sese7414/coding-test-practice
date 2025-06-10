@@ -40,6 +40,6 @@ def solution(n):
         if n % i == 0:
             divisor.append(i)
             if i != n//i: # 중복 제외하려고 이렇게 한 듯
-                divisor.append(n/i)
+                divisor.append(n//i)
     return sum(divisor)
 # https://kbw1101.tistory.com/32
