@@ -15,7 +15,7 @@ def solution(n):
 # 다른 사람들 코드
 # list comprehension
 def solution(n):
-  return sum([i for i in range(1, n+1] if n % i == 0)
+  return sum([i for i in range(1, n+1) if n % i == 0 ])
 
 # num / 2 의 수들만 검사
 def solution(num):
