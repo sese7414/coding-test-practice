@@ -1,0 +1,15 @@
+/*
+문제: 평균 일일 대여 요금 구하기
+분류: SELECT
+링크: https://school.programmers.co.kr/learn/courses/30/lessons/151136
+*/
+
+-- AVG
+SELECT ROUND(AVG(DAILY_FEE)) AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV'
+
+-- SUM/COUNT
+SELECT ROUND(SUM(DAILY_FEE)/COUNT(*)) AS AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV'
