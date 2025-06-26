@@ -12,7 +12,7 @@ def solution(num):
     while work < 500:
         if num == 1:
             return work
-            break
+            break -- 없어도 됨!!
         elif num % 2 == 0:
             num = num / 2
         else:
