@@ -28,3 +28,8 @@ WHERE NOT EXISTS (
     )
 ORDER BY A.ANIMAL_ID;
 -- 출처: https://school.programmers.co.kr/questions/88237
+
+-- 차집합 사용
+SELECT ANIMAL_ID, NAME FROM ANIMAL_OUTS
+EXCEPT
+SELECT ANIMAL_ID, NAME FROM ANIMAL_INS
