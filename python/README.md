@@ -10,6 +10,6 @@
 | 05 | 숫자 비교하기 | [보기](./05_compare_numbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120807) |
 | 06 | 두 수의 합 구하기 | [보기](./06_sum_tnumbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802) |
 | 07 | 두 수의 나눗셈 | [보기](./07_divide_two_numbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120806) |
-| 08 | 각도기 | [보기](./08_protractor.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802) |
-| 09 | 짝수의 합 | [보기](./06_sum_tnumbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802) |
-| 10 | 배열의 평균값 | [보기](./06_sum_tnumbers.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120802) |
+| 08 | 각도기 | [보기](./08_protractor.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120829) |
+| 09 | 짝수의 합 | [보기](./09_even_sum.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120831) |
+| 10 | 배열의 평균값 | [보기](./10_mean_list.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/120817) |
