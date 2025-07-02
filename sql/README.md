@@ -30,4 +30,8 @@
 | 26 | 입양 시각 구하기(1) | [보기](./26_find_adoption_time1.sql) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/59412) |
 
 
+## 🔁 다시 풀고 싶은 문제 리스트
+
+- [ ] 59 자동차 대여 기록에서 대여중 / 대여 가능 여부 구분하기 — GROUP BY, HAVING 연습 복습용
+
 
