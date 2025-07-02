@@ -1,0 +1,33 @@
+/*
+문제: 자동차 대여 기록에서 대여중 / 대여 가능 여부 구분하기
+분류: GROUP BY
+링크: https://school.programmers.co.kr/learn/courses/30/lessons/157340
+*/
+
+WITH MAX_BEFORE_DATE AS (
+    SELECT  *, MAX(START_DATE) OVER (PARTITION BY CAR_ID) MAX_DATE
+    FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+    WHERE DATE_FORMAT(START_DATE, '%Y-%m-%d') <= '2022-10-16' 
+)
+SELECT  CAR_ID,
+        CASE WHEN (START_DATE <= '2022-10-16 00:00:00') AND ('2022-10-16 00:00:00' <= END_DATE) THEN '대여중'
+        ELSE '대여 가능' END AVAILABILITY
+FROM MAX_BEFORE_DATE
+WHERE START_DATE = MAX_DATE
+ORDER BY CAR_ID DESC
+-- 근데 이러면 어떤 CAR_ID의 날짜인지 알 수 없어서 마음에 안 듦
+  
+-- ChatGPT가 더 괜찮게 코드를 바꿔줌 - 내가 원했던 대로!!
+SELECT CAR_ID,
+       CASE WHEN START_DATE <= '2022-10-16' AND '2022-10-16' <= END_DATE THEN '대여중'
+            ELSE '대여 가능'
+       END AS AVAILABILITY
+FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+WHERE (CAR_ID, START_DATE) IN ( -- WHERE 절에서 CAR_ID와 그에 따른 MAX DATE값을 보여줌!
+    SELECT CAR_ID, MAX(START_DATE)
+    FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+    WHERE START_DATE <= '2022-10-16'
+    GROUP BY CAR_ID
+)
+ORDER BY CAR_ID DESC;
+
