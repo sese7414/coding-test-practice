@@ -48,3 +48,9 @@ FROM PLACES P JOIN HEAVY_USERS H
 ON P.HOST_ID = H.HOST_ID
 ORDER BY ID
 -- 참고: https://school.programmers.co.kr/questions/84676
+-- with 절 살리고 밑에만 다르게 사용 가능
+SELECT *
+FROM PLACES
+WHERE HOST_ID IN (SELECT HOST_ID
+                  FROM HEAVY_USERS)
+ORDER BY ID
