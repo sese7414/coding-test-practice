@@ -18,3 +18,10 @@
 | 13 | 자릿수 더하기 | [보기](./13_add_digits.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/12931) |
 | 14 | 약수의 합 | [보기](./14_sum_divisor.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/12928) |
 | 15 | 나머지가 1이 되는 수 찾기 | [보기](./15_find_remainder1_num.py) | [링크](https://school.programmers.co.kr/learn/courses/30/lessons/87389) |
+
+
+
+
+# 🔁 다시 풀고 싶은 문제 리스트
+- [ ] 39 최대공약수, 최소공배수
+- [ ] 40 3진법 뒤집기
