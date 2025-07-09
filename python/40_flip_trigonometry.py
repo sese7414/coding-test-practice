@@ -16,8 +16,8 @@ def solution(n):
     answer = 3*rem[0] + rem[1]
     for i in range(2,len(rem)):
         answer = answer*3 + rem[i]
-
     return answer
+# 참고: https://velog.io/@kihyeon8949/Algorithm-3진법-뒤집기
 
 # GPT한테 물어봤는데 맘에 안 듦
 def solution(n):
