@@ -10,4 +10,10 @@ def solution(n):
     answer = sum(map(int, n_list)) # map 사용법: map(반복 적용할 함수, 반복할 객체)
     return answer
 
-
+# for문 버전
+def solution(n):
+    answer = 0
+    n_list = list(str(n))
+    for num in n_list:
+        answer += int(num)
+    return answer
